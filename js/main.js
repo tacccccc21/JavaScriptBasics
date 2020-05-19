@@ -1,9 +1,13 @@
 'use strict';
 
 // コメント
+const name = "hrh"
+const price = 151;
 
-let price = 300;
-    console.log(price * 150);
 
-price = 400;
-    console.log(price * 130);
+if (price >= 100){
+  if(name === "hrh"){
+    console.log("yeah");
+  }
+}
+
